@@ -1,0 +1,11 @@
+# Settings File
+settings.json
+
+# Nodes
+node_modules
+
+# Recordings
+recordings
+
+# NPM Debugs
+npm-debug.log

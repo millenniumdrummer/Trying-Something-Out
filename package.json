@@ -1,0 +1,30 @@
+{
+  "name": "discord-transcription-bot",
+  "version": "1.0.0",
+  "description": "A bot that will transcribe discord voice comms",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjlundstrom/discord-transcription-bot.git"
+  },
+  "author": "Tyler Lundstrom & Joshua Minor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjlundstrom/discord-transcription-bot/issues"
+  },
+  "homepage": "https://github.com/tjlundstrom/discord-transcription-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "node-opus": "^0.2.7",
+    "node-witai-speech": "^1.0.2",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3"
+  }
+}
